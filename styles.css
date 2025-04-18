@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, sans-serif;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     background-color: #6175c5;
     margin: 0;
     padding: 20px;
@@ -17,7 +17,13 @@ body {
   h1 {
     text-align: center;
     color: #d35400;
-    font-size: 1.8rem;
+    font-size: 3.2rem;
+  }
+
+  h2 {
+    text-align: left;
+    color: #0035d3;
+    font-size: 2rem;
   }
   
   .menu-list {
@@ -29,7 +35,7 @@ body {
     display: flex;
     justify-content: space-between;
     padding: 12px 0;
-    border-bottom: 1px solid #201f1f;
+    border-bottom: 1px solid #82838a;
     font-size: 1.1rem;
   }
   
