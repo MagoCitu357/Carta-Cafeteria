@@ -73,12 +73,3 @@ li img {
   border-radius: 8px;
   box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
 }
-
-/* Responsive */
-li img {
-  width: 100px;
-  height: auto;
-  margin-top: 10px;
-  border-radius: 8px;
-  object-fit: cover;
-}
