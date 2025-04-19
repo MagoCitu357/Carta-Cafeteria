@@ -1,6 +1,9 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&family=Playwrite+RO:wght@100..400&display=swap');
+  </style>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Carta del Restaurante</title>
@@ -8,21 +11,92 @@
 </head>
 <body>
   <div class="menu-container">
-    <h1>Menu Restaurante</h1>
+    <h1>Menu Restaurante.</h1>
+    <ul class="menu-list">
+      <h2>Entradas:</h2>
+      <li>
+        <img src="Imagenes/PanAjo.png" alt="">
+        <span class="item-name">Pan con ajo</span>
+        <span class="item-price" id="precio-panAjo"></span>
+      </li>
+      <li>
+        <img src="Imagenes/Sopa.png" alt="">
+        <span class="item-name">Sopa del dia</span>
+        <span class="item-price" id="precio-sopa"></span>
+      </li>
+      <li>
+        <img src="Imagenes/Ensalada.png" alt="">
+        <span class="item-name">Ensalada mixta</span>
+        <span class="item-price" id="precio-ensalada"></span>
+      </li>
 
-    <h2>Entradas</h2>
-    <ul class="menu-list" id="menu-entradas"></ul>
+      <h2>Principales:</h2>
+      <li>
+        <span class="item-name">Hamburguesa</span>
+        <span class="item-price" id="precio-hamburguesa"></span>
+        <img src="Imagenes/Hamburguesa.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Pizza</span>
+        <span class="item-price" id="precio-pizza"></span>
+        <img src="Imagenes/Pizza.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Pollo a la plancha</span>
+        <span class="item-price" id="precio-pollo"></span>
+        <img src="Imagenes/Pollo.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Tacos</span>
+        <span class="item-price" id="precio-tacos"></span>
+        <img src="Imagenes/Tacos.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Pasta carbonara</span>
+        <span class="item-price" id="precio-pasta"></span>
+        <img src="Imagenes/Pasta.png" alt="">
+      </li>
 
-    <h2>Platos Principales</h2>
-    <ul class="menu-list" id="menu-principales"></ul>
+      <h2>Postres:</h2>
+      <li>
+        <img src="Imagenes/Helado.png" alt="">
+        <span class="item-name">Helado</span>
+        <span class="item-price" id="precio-helado"></span>
+      </li>
+      <li>
+        <img src="Imagenes/TartaDeQueso.png" alt="">
+        <span class="item-name">Tarta de queso</span>
+        <span class="item-price" id="precio-tartaQueso"></span>
+      </li>
+      <li>
+        <img src="Imagenes/Flan.png" alt="">
+        <span class="item-name">flan casero</span>
+        <span class="item-price" id="precio-flan"></span>
+      </li>
 
-    <h2>Postres</h2>
-    <ul class="menu-list" id="menu-postres"></ul>
-
-    <h2>Bebidas</h2>
-    <ul class="menu-list" id="menu-bebidas"></ul>
+      <h2>Bebidas:</h2>
+      <li>
+        <span class="item-name">Agua</span>
+        <span class="item-price" id="precio-agua"></span>
+        <img src="Imagenes/Agua.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Zumo natural</span>
+        <span class="item-price" id="precio-zumo"></span>
+        <img src="Imagenes/JugoNaranja.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Refresco</span>
+        <span class="item-price" id="precio-refresco"></span>
+        <img src="Imagenes/Refresco.png" alt="">
+      </li>
+      <li>
+        <span class="item-name">Cafe</span>
+        <span class="item-price" id="precio-cafe"></span>
+        <img src="Imagenes/Cafe.png" alt="">
+      </li>
+    </ul>
   </div>
-
   <script src="precios.js"></script>
   <script src="script.js"></script>
 </body>
